@@ -1,0 +1,53 @@
+:root {
+  --color-primary: #1a73e8;
+  --color-secondary: #e8f0fe;
+
+  --bg-main: #dbd0bc;
+  --bg-soft
+
+  --text-main: #3a2f2b;
+  --text-main-h2: #262220;
+  --text-muted: #7a6a66;
+
+  --font-base: 1rem;
+  --font-lead: 1.125rem;
+
+  --lh-body: 1.0;
+
+  --space-md: 1.25rem;
+}
+
+body {
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+  background: var(--bg-main);
+  color: var(--text-main);
+  font-size: var(--font-base);
+  line-height: var(--lh-body);
+  text-align: center;
+}
+
+/* Hero */
+.hero {
+  /* Mobile-first spacing */
+  padding: clamp(0rem, 8vw, 7rem) 0;
+
+  /* Fallback color while image loads */
+  background-color: var(--bg-soft);
+  position: relative;
+}
+
+.hero-text h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.lead {
+  font-size: var(--font-lead);
+  margin-bottom: var(--space-md);
+  color: var(--text-main-h2);
+}
