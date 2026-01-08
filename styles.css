@@ -42,6 +42,10 @@ body {
   position: relative;
 }
 
+.logo-text {
+    margin-left: 1.6rem;
+}
+
 .hero-text h1 {
   font-size: clamp(2rem, 4vw, 3rem);
 }
